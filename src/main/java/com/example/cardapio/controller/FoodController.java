@@ -1,13 +1,13 @@
 package com.example.cardapio.controller;
 
 import com.example.cardapio.food.Food;
-import com.example.cardapio.food.FoodRepository; // Corrigir nome da classe FoodRepository e importação da List
+import com.example.cardapio.food.FoodRepository;
 import com.example.cardapio.food.FoodReponseDTO;
 import com.example.cardapio.food.FoodRequestDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List; // Corrigir importação da List
+import java.util.List;
 
 @RestController
 @RequestMapping("/food")
